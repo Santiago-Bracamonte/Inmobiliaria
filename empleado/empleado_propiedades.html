@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades - Empleado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Inmobiliaria/css/empleado_propiedades.css">
+ </head>
+ <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/Inmobiliaria/index.html">Inmobiliaria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="empleado_dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="empleado_propiedades.html">Propiedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empleado_clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empleado_contratos.html">Contratos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="header-title text-center">Gestión de Propiedades</h1>
+        <div class="d-flex justify-content-end mb-3">
+            <a href="empleado_agregar_propiedad.html" class="btn btn-success">Agregar Nueva Propiedad</a>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Ubicación</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Propiedad A</td>
+                    <td>Ubicación A</td>
+                    <td> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ratione quos cupiditate ipsam sed, voluptatem nihil quo quam labore mollitia deleniti modi quaerat adipisci cum enim voluptates tempore necessitatibus beatae!</td>
+                    <td>$100,000</td>
+                    <td>
+                        <a href="empleado_editar_propiedad.html" class="btn btn-warning btn-sm">Editar</a>
+                        <a href="empleado_eliminar_propiedad.html" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Propiedad B</td>
+                    <td>Ubicación B</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, temporibus quasi libero commodi eligendi necessitatibus similique deleniti laudantium magnam maxime! Natus doloribus quam officia fuga debitis est adipisci ut voluptas.</td>
+                    <td>$150,000</td>
+                    <td>
+                        <a href="empleado_editar_propiedad.html" class="btn btn-warning btn-sm">Editar</a>
+                        <a href="empleado_eliminar_propiedad.html" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

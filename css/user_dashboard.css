@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f8f5;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    color: #28a745;
+    font-weight: bold;
+}
+.imagen{
+    background-image: url(/Inmobiliaria/img/fotoFondo.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.fondo{
+    background-color: #ffffff7a;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.card {
+    border-radius: 15px;
+    border: 2px solid #28a745;
+    
+}
+
+.card-body {
+    padding: 1.5rem;
+    
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.placeholder-img {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #27482f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.placeholder-img img {
+    max-width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

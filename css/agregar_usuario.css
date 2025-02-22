@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #dc3545;
+    padding: 1rem;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.nav-link:hover {
+    background-color: #c82333;
+    border-radius: 5px;
+}
+
+.container {
+    flex: 1;
+    padding-top: 50px;
+}
+
+.header-title {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #a31b1b; 
+}
+
+.btn-primary {
+    background-color: #d9534f; 
+    border-color: #d9534f;
+}
+
+.btn-secondary {
+    background-color: #f0ad4e; 
+    border-color: #f0ad4e;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.btn:hover {
+    opacity: 0.85; 
+}
+
+.form-label {
+    color: #a31b1b; 
+}
+
+input, select {
+    border-color: #a31b1b !important;
+}
+
+.form-control:focus {
+    border-color: #d9534f !important;
+    box-shadow: 0 0 0 0.2rem rgba(217, 83, 79, 0.25);
+}
+
+.footer {
+    background-color: #a31b1b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
